@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title> Unlimited Colors</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../styles.css" />
+    <style>
+      
+      .center {
+        margin: 30px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+      }
+
+      button {
+        padding: 10px 20px;
+        font-size: 1rem;
+        cursor: pointer;
+        border: none;
+        border-radius: 10px;
+        background-color: #d4b6df;
+        color: #fff;
+        transition: .3s ease;
+        font-weight: bold;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+      }
+
+      button:hover {
+        background-color: #be8afa;
+      }
+
+      h1 {
+        text-align: center;
+        margin-top: 60px;
+      }
+
+    </style>
+  </head>
+  <body style="background-color: #212121; color: #fff">
+    <nav>
+      <a href="../index.html" aria-current="page">Home</a>
+      <a target="_blank" href="https://www.youtube.com/@codeAmour7"
+        >Youtube channel</a
+      >
+    </nav>
+
+      <h1>Start button will change the Background color in every second</h1>
+
+    <div class="center">
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+    </div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
