@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: sans-serif;
+  background: #000;
+  color: #fff;
+}
+
+.content {
+  font-size: 3rem;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  height: 90vh;
+  gap: 0.5rem;
+  color: #fff;
+}
+
+.js {
+  color: #fdfdfc;
+}
+
+.typed-text {
+  color: #de8512;
+}
+
+.cursor {
+  background-color: #dbe912;
+  width: 5px;
+  display: inline-block;
+  animation: blink 0.5s infinite;
+  
+}
+
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
