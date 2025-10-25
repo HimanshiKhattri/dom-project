@@ -17,6 +17,3 @@ btn.addEventListener('click' , () => {
 function randomSize() {
   return Math.floor(Math.random() * 10 + 300);
 }
-
-
-
