@@ -16,6 +16,7 @@ body {
     background-color: #211f27;
     color: #fff;
     box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    justify-items: center;
 }
 
 h2 {
@@ -32,7 +33,7 @@ h2 {
     cursor: pointer;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f1d014;
-    color: #fff;
+    color: #000;
     font-size: 1rem;
     
 }
@@ -49,6 +50,8 @@ h2 {
     color: #fff;
     border: none;
     border-radius: 8px;
+    display: none;
+    
 }
 
 #start-btn {
