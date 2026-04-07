@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+    <main class="card" role="main" aria-labelledby="title">
+
+        <!-- top header -->
+        <header class="top">
+
+            <div>
+                <h1 id="title">Weather App</h1>
+                <p class="lead">Find real-time weather for any city</p>
+            </div>
+        </header>
+
+        <!-- search area -->
+         <section class="search">
+            <label class="sr-only" for="city">City</label>
+            <input id="city" type="search" placeholder="Enter City (e.g London)" autocomplete="off"/>
+            <button class="btn" id="searchBtn">Search</button>
+         </section>
+
+         <!-- resutl hidden -->
+          <section id="result" class="result hidden" aria-live="polite">
+            <div class="row">
+                <div class="left">
+                    <h2 id="cityName">_</h2>
+                    <div class="meta">
+                        <span id="desc">_</span>.  <span id="localTime">_ </span>
+                    </div>
+
+                    <div class="tem-row">
+                        <div class="temp">
+                            <span id="temp">_</span><small>°C</small>
+                        </div>
+                         <div class="tem-icon">
+                            <img id="icon" src="" alt=""/>
+                         </div>
+                    </div>
+
+                    <div class="stats">
+                        <div>Humidity: <strong id="humidity">_</strong>%</div>
+                        <div>Wind: <strong id="wind">_</strong></div>
+                        <div>Sunrise: <strong id="sunrise">_</strong></div>
+                        <div>Sunset: <strong id="sunset">_</strong></div>
+                    </div>                    
+                </div>
+                <div class="right">
+                    <div id="mapPlaceholder" class="map">Map / extra content</div>
+                </div>
+            </div>
+
+          </section>
+
+          <section id="status" class="status muted">Enter a city and press Search.</section>
+
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>
